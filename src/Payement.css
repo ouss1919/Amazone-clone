@@ -1,0 +1,98 @@
+.payement {
+  display: flex;
+  flex-direction: column;
+  margin: 30px 50px 30px 50px;
+}
+
+.payement__info > h1 {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.adress {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 50px;
+}
+
+.info {
+  margin-left: 150px;
+}
+
+.info > p {
+  padding: 0;
+  margin: 0;
+  font-weight: 600;
+}
+
+.payement__basket {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.basket {
+  margin-left: 20px;
+}
+
+.payement__method {
+  display: flex;
+  align-items: flex-start;
+}
+
+.payement__method > h2 {
+  margin-right: 150px;
+}
+
+.card_number {
+  margin-bottom: 50px;
+}
+
+.order {
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+.order > h2 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.order > button {
+  width: 100%;
+  height: 5vh;
+  color: #111;
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  border: 1px solid;
+}
+.payement__method {
+  display: flex;
+  margin: 0 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.payement__method > h2 {
+  flex: 0.2;
+}
+
+.card {
+  margin-left: 20px;
+}
+
+.card > h2 {
+  margin: 30px 0 10px 0;
+  padding: 0;
+}
+
+.card > button {
+  width: 100%;
+  height: 25px;
+  color: #111;
+  background: #f0c14b;
+  border-color: #a88734 #9c7e31 #846a29;
+  border: 1px solid;
+}

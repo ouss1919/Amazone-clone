@@ -3,8 +3,10 @@ import './Checkout.css'
 import ShoppingItem from './ShoppingItem';
 import { useStateValue } from './StateProvider';
 import {getTotalPrice} from './reducer';
+import { useHistory } from 'react-router';
 function Checkout() {
     const [{ basket }, dispatch] = useStateValue();
+    const history = useHistory();
     return (
         <div className="checkout">
             <div className="checkout__left">
@@ -29,10 +31,10 @@ function Checkout() {
                     <input type="checkbox" disabled />
                     <p>this order contains a gift</p>
                 </div>
-                <button>Proceed to Checkout</button>
+                <button onClick={e => history.push('/payement')}>Proceed to Checkout</button>
             </div>
         </div>
     )
 }
 
-export default Checkout
+export default Checkout;

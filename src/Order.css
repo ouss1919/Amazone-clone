@@ -1,0 +1,22 @@
+.shoppingItem {
+  margin: 10px 0 10px 0;
+  display: flex;
+}
+
+.itemImage {
+  max-width: 300px;
+  max-height: 500px;
+  margin-right: 40px;
+}
+
+.item__description > h3 {
+  padding: 0;
+  margin-bottom: 5px;
+}
+.item__price {
+  margin-bottom: 5px;
+}
+
+.item__rating {
+  margin-bottom: 5px;
+}
